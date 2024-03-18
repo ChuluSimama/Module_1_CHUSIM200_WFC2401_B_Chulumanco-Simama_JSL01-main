@@ -7,10 +7,10 @@ function validateSyntax() {
 
 
     if (regex.test(inputValue)) {
-        document.getElementById("result").textContent = "Valid Syntax";
+        document.getElementById("result").textContent = "Valid Syntax 🟢";
         document.getElementById("result").className = "valid";
     } else {
-        document.getElementById("result").textContent = "Invalid Syntax";
+        document.getElementById("result").textContent = "Invalid Syntax 🔴";
         document.getElementById("result").className = "invalid";
     }
 }
